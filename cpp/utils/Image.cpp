@@ -56,9 +56,9 @@ std::istream& operator>>(std::istream &istream, StrideImage &img) {
     istream >> pixelValue;
     currPixel = parsePixel(pixelValue);
     img.redPixels[i] = currPixel.red;
-    img.greenPixels[i] = currPixel.red;
-    img.bluePixels[i] = currPixel.red;
-    img.alphaPixels[i] = currPixel.red;
+    img.greenPixels[i] = currPixel.green;
+    img.bluePixels[i] = currPixel.blue;
+    img.alphaPixels[i] = currPixel.alpha;
   }
 
   return istream;
