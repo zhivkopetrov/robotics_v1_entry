@@ -9,12 +9,12 @@
 class Solution {
 public:
   void compute([[maybe_unused]]std::vector<PackedImage> &images) {
-    FunctionTracer<std::chrono::milliseconds> tracer(__func__, "ms");
+    FunctionTracer<std::chrono::milliseconds> tracer("compute", "ms");
     //TODO: fill solution
   }
 
   void compute([[maybe_unused]]std::vector<StrideImage> &images) {
-    FunctionTracer<std::chrono::milliseconds> tracer(__func__, "ms");
+    FunctionTracer<std::chrono::milliseconds> tracer("compute", "ms");
     //TODO: fill solution
   }
 };

@@ -25,7 +25,7 @@ public:
 
   static int32_t generateData(std::vector<T> &outInputData,
                               std::vector<T> &outOutputData) {
-    FunctionTracer<std::chrono::milliseconds> tracer(__func__,
+    FunctionTracer<std::chrono::milliseconds> tracer("generateData",
         "ms //not included into solution timings");
 
     constexpr auto inputFile = "input.bin";
