@@ -1,0 +1,10 @@
+# Personalized dev env
+.vscode
+.cache
+
+# Build artefacts
+bld/
+build/
+
+# Tests (obtained separately)
+tests/

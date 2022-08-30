@@ -1,5 +1,5 @@
-#ifndef IMAGE_H_
-#define IMAGE_H_
+#ifndef INCLUDE_UTILS_IMAGE
+#define INCLUDE_UTILS_IMAGE
 
 #include <cstdint>
 #include <vector>
@@ -30,4 +30,4 @@ struct StrideImage {
   std::vector<uint8_t> alphaPixels;
 };
 
-#endif /* IMAGE_H_ */
+#endif // INCLUDE_UTILS_IMAGE

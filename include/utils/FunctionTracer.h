@@ -1,5 +1,5 @@
-#ifndef FUNCTIONTRACER_H_
-#define FUNCTIONTRACER_H_
+#ifndef INCLUDE_UTILS_FUNCTION_TRACER
+#define INCLUDE_UTILS_FUNCTION_TRACER
 
 #include <chrono>
 #include <string>
@@ -32,4 +32,4 @@ private:
   std::string mPostfix;
 };
 
-#endif /* FUNCTIONTRACER_H_ */
+#endif // INCLUDE_UTILS_FUNCTION_TRACER

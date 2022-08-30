@@ -1,5 +1,5 @@
-#ifndef SOLUTIONEVALUATOR_H_
-#define SOLUTIONEVALUATOR_H_
+#ifndef INCLUDE_UTILS_SOLUTION_EVALUATOR
+#define INCLUDE_UTILS_SOLUTION_EVALUATOR
 
 #include <cstdint>
 #include <vector>
@@ -32,4 +32,4 @@ public:
   }
 };
 
-#endif /* SOLUTIONEVALUATOR_H_ */
+#endif // INCLUDE_UTILS_SOLUTION_EVALUATOR

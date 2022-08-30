@@ -1,5 +1,5 @@
-#ifndef SOLUTION_H_
-#define SOLUTION_H_
+#ifndef INCLUDE_SOLUTION
+#define INCLUDE_SOLUTION
 
 #include <cstdint>
 
@@ -19,4 +19,4 @@ public:
   }
 };
 
-#endif /* SOLUTION_H_ */
+#endif // INCLUDE_SOLUTION

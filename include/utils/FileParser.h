@@ -1,5 +1,5 @@
-#ifndef FILEPARSER_H_
-#define FILEPARSER_H_
+#ifndef INCLUDE_UTILS_FILE_PARSER
+#define INCLUDE_UTILS_FILE_PARSER
 
 #include <string>
 #include <vector>
@@ -90,4 +90,4 @@ public:
   }
 };
 
-#endif /* FILEPARSER_H_ */
+#endif // INCLUDE_UTILS_FILE_PARSER

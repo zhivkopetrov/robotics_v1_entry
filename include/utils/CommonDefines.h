@@ -1,5 +1,5 @@
-#ifndef COMMONDEFINES_H_
-#define COMMONDEFINES_H_
+#ifndef INCLUDE_UTILS_COMMON_DEFINES
+#define INCLUDE_UTILS_COMMON_DEFINES
 
 #include <cstdint>
 
@@ -24,4 +24,4 @@ struct Pixel {
   uint8_t alpha { };
 };
 
-#endif /* COMMONDEFINES_H_ */
+#endif // INCLUDE_UTILS_COMMON_DEFINES
