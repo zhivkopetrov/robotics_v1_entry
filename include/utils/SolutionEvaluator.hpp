@@ -2,6 +2,7 @@
 #define RED_EYE_UTILS_SOLUTION_EVALUATOR
 
 #include <cstdint>
+#include <iostream>
 #include <vector>
 
 template <typename T>
