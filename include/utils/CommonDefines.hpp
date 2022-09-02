@@ -1,5 +1,5 @@
-#ifndef INCLUDE_UTILS_COMMON_DEFINES
-#define INCLUDE_UTILS_COMMON_DEFINES
+#ifndef RED_EYE_UTILS_COMMON_DEFINES
+#define RED_EYE_UTILS_COMMON_DEFINES
 
 #include <cstdint>
 
@@ -24,4 +24,4 @@ struct Pixel {
   uint8_t alpha { };
 };
 
-#endif // INCLUDE_UTILS_COMMON_DEFINES
+#endif // RED_EYE_UTILS_COMMON_DEFINES

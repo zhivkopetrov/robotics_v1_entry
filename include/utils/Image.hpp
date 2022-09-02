@@ -1,5 +1,5 @@
-#ifndef INCLUDE_UTILS_IMAGE
-#define INCLUDE_UTILS_IMAGE
+#ifndef RED_EYE_UTILS_IMAGE
+#define RED_EYE_UTILS_IMAGE
 
 #include <cstdint>
 #include <vector>
@@ -30,4 +30,4 @@ struct StrideImage {
   std::vector<uint8_t> alphaPixels;
 };
 
-#endif // INCLUDE_UTILS_IMAGE
+#endif // RED_EYE_UTILS_IMAGE

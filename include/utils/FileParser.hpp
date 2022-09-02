@@ -1,5 +1,5 @@
-#ifndef INCLUDE_UTILS_FILE_PARSER
-#define INCLUDE_UTILS_FILE_PARSER
+#ifndef RED_EYE_UTILS_FILE_PARSER
+#define RED_EYE_UTILS_FILE_PARSER
 
 #include <string>
 #include <vector>
@@ -90,4 +90,4 @@ public:
   }
 };
 
-#endif // INCLUDE_UTILS_FILE_PARSER
+#endif // RED_EYE_UTILS_FILE_PARSER

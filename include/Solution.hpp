@@ -1,5 +1,5 @@
-#ifndef INCLUDE_SOLUTION
-#define INCLUDE_SOLUTION
+#ifndef RED_EYE_SOLUTION
+#define RED_EYE_SOLUTION
 
 #include <cstdint>
 
@@ -19,4 +19,4 @@ public:
   }
 };
 
-#endif // INCLUDE_SOLUTION
+#endif // RED_EYE_SOLUTION
