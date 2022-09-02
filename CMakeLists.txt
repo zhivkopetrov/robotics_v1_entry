@@ -38,15 +38,27 @@ target_include_directories(
         ${INC_DIR}/utils
 )
 
+##  Solution  ##
+add_library(
+    solution STATIC
+        ${INC_DIR}/solution/Solution.hpp
+
+        ${SRC_DIR}/solution/Solution.cpp
+)
+
+target_include_directories(
+    solution PRIVATE
+        ${INC_DIR}/solution
+)
+
 ##  Executable  ##
 add_executable(
     ${PROJECT_NAME}
-        ${INC_DIR}/Solution.hpp
-
         ${SRC_DIR}/main.cpp
 )
 
 target_link_libraries(
     ${PROJECT_NAME} PRIVATE
         utils
+        solution
 )
