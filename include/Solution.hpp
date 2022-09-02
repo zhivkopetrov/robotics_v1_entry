@@ -3,8 +3,8 @@
 
 #include <cstdint>
 
-#include "utils/Image.h"
-#include "utils/FunctionTracer.h"
+#include "utils/Image.hpp"
+#include "utils/FunctionTracer.hpp"
 
 class Solution {
 public:

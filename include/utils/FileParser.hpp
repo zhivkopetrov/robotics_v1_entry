@@ -7,8 +7,8 @@
 #include <sstream>
 #include <iostream>
 
-#include "CommonDefines.h"
-#include "FunctionTracer.h"
+#include "CommonDefines.hpp"
+#include "FunctionTracer.hpp"
 
 namespace {
 void clearValues(std::string &line, std::istringstream &istr) {

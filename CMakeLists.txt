@@ -23,12 +23,12 @@ include_directories(${INC_DIR})
 ##  Utils  ##
 add_library(
     utils STATIC
-        ${INC_DIR}/utils/CommonDefines.h
-        ${INC_DIR}/utils/EyePatterns.h
-        ${INC_DIR}/utils/FileParser.h
-        ${INC_DIR}/utils/FunctionTracer.h
-        ${INC_DIR}/utils/Image.h
-        ${INC_DIR}/utils/SolutionEvaluator.h
+        ${INC_DIR}/utils/CommonDefines.hpp
+        ${INC_DIR}/utils/EyePatterns.hpp
+        ${INC_DIR}/utils/FileParser.hpp
+        ${INC_DIR}/utils/FunctionTracer.hpp
+        ${INC_DIR}/utils/Image.hpp
+        ${INC_DIR}/utils/SolutionEvaluator.hpp
 
         ${SRC_DIR}/utils/Image.cpp
 )
@@ -41,7 +41,7 @@ target_include_directories(
 ##  Executable  ##
 add_executable(
     ${PROJECT_NAME}
-        ${INC_DIR}/Solution.h
+        ${INC_DIR}/Solution.hpp
 
         ${SRC_DIR}/main.cpp
 )

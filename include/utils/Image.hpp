@@ -5,7 +5,7 @@
 #include <vector>
 #include <iosfwd>
 
-#include "CommonDefines.h"
+#include "CommonDefines.hpp"
 
 struct PackedImage {
   PackedImage(const Resolution& res);

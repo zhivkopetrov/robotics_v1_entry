@@ -1,7 +1,7 @@
-#include "utils/FileParser.h"
-#include "utils/Image.h"
-#include "utils/SolutionEvaluator.h"
-#include "Solution.h"
+#include "utils/FileParser.hpp"
+#include "utils/Image.hpp"
+#include "utils/SolutionEvaluator.hpp"
+#include "Solution.hpp"
 
 int32_t main([[maybe_unused]]int32_t argc, [[maybe_unused]]char *argv[]) {
   //Use the provided implementation that best suits your needs
