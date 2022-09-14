@@ -10,3 +10,5 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 add_executable(robotics_v1_entry main.cpp utils/Image.cpp)
 
+target_link_libraries(robotics_v1_entry pthread)
+
